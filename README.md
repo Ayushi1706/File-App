@@ -52,6 +52,6 @@ File-App/
 
 Email notification generated after file upload:
 
-
+if[![Email Preview](email-preview.png)
 
 ---
