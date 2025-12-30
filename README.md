@@ -34,16 +34,22 @@ The application supports image upload, video upload, compressed image upload, an
 ## Project Structure
 File-App/
 ├── config/
-│   ├── cloudinary.js
-│   ├── database.js
+│   ├── cloudinary.js       # Cloudinary configuration
+│   └── database.js         # MongoDB connection
+│
 ├── controllers/
-│   └── fileUpload.js
+│   └── fileUpload.js       # All upload handlers (image/video/local)
+│
 ├── models/
-│   └── File.js
+│   └── File.js             # Mongoose schema for file data
+│
 ├── routes/
-│   └── fileUpload.js
-├── .env
-├── index.js
+│   └── fileUpload.js       # API routes for uploads
+│
+├── .env                    # Environment variables
+├── index.js                # Entry point (Express server)
+└── package.json
+
 
 
 ---
